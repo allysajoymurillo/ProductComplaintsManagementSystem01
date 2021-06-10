@@ -24,6 +24,14 @@ namespace ProductComplaintsManagementSystem
 
             string complainantEmail = Console.ReadLine();
             Console.WriteLine(complainantEmail);
+            
+            Console.Write("Enter  your Occupation: ");
+            string complainantOccupation = Console.ReadLine();
+            Console.WriteLine(complainantOccupation);
+            
+            Console.Write("Enter  your Age: ");
+            int complainantAge = Console.ReadLine();
+            Console.WriteLine(complainantAge);
 
             Console.Write("Enter  your Complain: ");
             string productComplaint = Console.ReadLine();
